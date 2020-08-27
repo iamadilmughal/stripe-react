@@ -75,7 +75,7 @@ function Display() {
       console.log(key, value);
     }
 
-    Axios.delete("http://localhost:3000/coupons/" + id)
+    Axios.delete("https://stripe-express-cloudtek.herokuapp.com/coupons/" + id)
       .then((res) => {
         console.log(res.data);
         if (res.data.status === 1) {
@@ -89,7 +89,7 @@ function Display() {
   };
 
   useEffect(() => {
-    Axios.get("http://localhost:3000/coupons/")
+    Axios.get("https://stripe-express-cloudtek.herokuapp.com/coupons/")
       .then((response) => {
         setCoupons(response.data.data);
         console.log(response);

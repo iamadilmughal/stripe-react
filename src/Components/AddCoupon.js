@@ -35,7 +35,7 @@ function AddCoupon(props) {
     console.log(data);
 
     axios
-      .post("http://localhost:3000/coupons", data, {
+      .post("https://stripe-express-cloudtek.herokuapp.com/coupons", data, {
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
         },
