@@ -2,6 +2,10 @@ body {
   background-color: rgb(240, 240, 240);
 }
 
+.header-color{
+  background-color: #156fb6;
+}
+
 .singleCoupon {
   margin: 20px 5%;
   background-color: rgb(255, 255, 255);
@@ -11,7 +15,7 @@ body {
 }
 
 .coupon-name {
-  color: rgb(50, 139, 255);
+  color: #156fb6;
 }
 
 .fa-icon {
